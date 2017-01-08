@@ -13,6 +13,13 @@
 		481F0F511E22AE1800E39342 /* Wishlist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 481F0F4F1E22AE1800E39342 /* Wishlist.xcdatamodeld */; };
 		481F0F531E22AE1800E39342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481F0F521E22AE1800E39342 /* Assets.xcassets */; };
 		481F0F561E22AE1800E39342 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 481F0F541E22AE1800E39342 /* LaunchScreen.storyboard */; };
+		481F0F5F1E22B1F400E39342 /* Product+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F0F5D1E22B1F400E39342 /* Product+CoreDataClass.swift */; };
+		481F0F601E22B1F400E39342 /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F0F5E1E22B1F400E39342 /* Product+CoreDataProperties.swift */; };
+		481F0F641E22BF3A00E39342 /* download-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 481F0F611E22BF3A00E39342 /* download-2.jpg */; };
+		481F0F651E22BF3A00E39342 /* adistarweightliftingshoes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 481F0F621E22BF3A00E39342 /* adistarweightliftingshoes.jpg */; };
+		481F0F661E22BF3A00E39342 /* dowin-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 481F0F631E22BF3A00E39342 /* dowin-5.jpg */; };
+		481F0F681E22C68C00E39342 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F0F671E22C68C00E39342 /* ProductDetailViewController.swift */; };
+		481F0F6A1E22D1DE00E39342 /* NewProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F0F691E22D1DE00E39342 /* NewProductViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		481F0F521E22AE1800E39342 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		481F0F551E22AE1800E39342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		481F0F571E22AE1800E39342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		481F0F5D1E22B1F400E39342 /* Product+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Product+CoreDataClass.swift"; path = "../Product+CoreDataClass.swift"; sourceTree = "<group>"; };
+		481F0F5E1E22B1F400E39342 /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Product+CoreDataProperties.swift"; path = "../Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		481F0F611E22BF3A00E39342 /* download-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "download-2.jpg"; path = "../../../../../Documents/pics/download-2.jpg"; sourceTree = "<group>"; };
+		481F0F621E22BF3A00E39342 /* adistarweightliftingshoes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = adistarweightliftingshoes.jpg; path = ../../../../../Documents/pics/adistarweightliftingshoes.jpg; sourceTree = "<group>"; };
+		481F0F631E22BF3A00E39342 /* dowin-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "dowin-5.jpg"; path = "../../../../../Documents/pics/dowin-5.jpg"; sourceTree = "<group>"; };
+		481F0F671E22C68C00E39342 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		481F0F691E22D1DE00E39342 /* NewProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProductViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +70,16 @@
 		481F0F471E22AE1800E39342 /* Wishlist */ = {
 			isa = PBXGroup;
 			children = (
+				481F0F611E22BF3A00E39342 /* download-2.jpg */,
+				481F0F621E22BF3A00E39342 /* adistarweightliftingshoes.jpg */,
+				481F0F631E22BF3A00E39342 /* dowin-5.jpg */,
 				481F0F481E22AE1800E39342 /* AppDelegate.swift */,
 				481F0F4A1E22AE1800E39342 /* ViewController.swift */,
+				481F0F671E22C68C00E39342 /* ProductDetailViewController.swift */,
+				481F0F691E22D1DE00E39342 /* NewProductViewController.swift */,
 				481F0F4C1E22AE1800E39342 /* Main.storyboard */,
+				481F0F5D1E22B1F400E39342 /* Product+CoreDataClass.swift */,
+				481F0F5E1E22B1F400E39342 /* Product+CoreDataProperties.swift */,
 				481F0F521E22AE1800E39342 /* Assets.xcassets */,
 				481F0F541E22AE1800E39342 /* LaunchScreen.storyboard */,
 				481F0F571E22AE1800E39342 /* Info.plist */,
@@ -126,7 +147,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481F0F641E22BF3A00E39342 /* download-2.jpg in Resources */,
+				481F0F661E22BF3A00E39342 /* dowin-5.jpg in Resources */,
 				481F0F561E22AE1800E39342 /* LaunchScreen.storyboard in Resources */,
+				481F0F651E22BF3A00E39342 /* adistarweightliftingshoes.jpg in Resources */,
 				481F0F531E22AE1800E39342 /* Assets.xcassets in Resources */,
 				481F0F4E1E22AE1800E39342 /* Main.storyboard in Resources */,
 			);
@@ -139,9 +163,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481F0F601E22B1F400E39342 /* Product+CoreDataProperties.swift in Sources */,
 				481F0F511E22AE1800E39342 /* Wishlist.xcdatamodeld in Sources */,
 				481F0F4B1E22AE1800E39342 /* ViewController.swift in Sources */,
 				481F0F491E22AE1800E39342 /* AppDelegate.swift in Sources */,
+				481F0F6A1E22D1DE00E39342 /* NewProductViewController.swift in Sources */,
+				481F0F5F1E22B1F400E39342 /* Product+CoreDataClass.swift in Sources */,
+				481F0F681E22C68C00E39342 /* ProductDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
